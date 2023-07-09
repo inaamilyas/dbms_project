@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  min-height: 95vh;
+  height: auto;
+  /* background: rgb(0, 0, 0); */
+  background-image: url("../Images/5.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+#insert, .section, #Records {
+  width: 80%;
+  height: auto;
+  /* background: rgb(155, 155, 155); */
+  margin: 50px auto;
+}
+#Records {
+  margin-bottom: 0;
+}
+#insert form p, .section form p, #Records p{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+#insert form, .section form{
+  width: 50%;
+  height: 80%;
+  background: black; 
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid red; */
+  border-radius: 5px;
+  padding: 10px 0px;
+}
+#insert form:hover, .section form:hover{
+  box-shadow: 0px 0px 10px 2px rgb(255, 255, 255);
+  transform: scale(1.01);
+}
+/* #insert form{
+  height: 200px;
+} */
+#insert form input, .section form input {
+  width: 90%;
+  height: 40px;
+  text-align: left;
+  margin: 5px 0px 20px 0px;
+  padding: 10px 5px;
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 8px;
+  outline: none;
+}
+#insert form input:hover, .section form input:hover {
+  border: 2px solid red;
+}
+#insert form button, .section form button {
+  width: 150px;
+  height: 45px;
+  margin: 5px 0px 5px 0px;
+  padding: 10px 5px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 8px;
+  border: 2px solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  background: #000;
+  outline: none;
+  cursor: pointer;
+}
+#insert form button:hover, .section form button:hover  {
+  border: 2px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+}
+#Records{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#Records table{
+    width: 80%;
+    height: auto;
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+#Records table th, #Records table td{
+  padding: 12px;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+#Records table th{
+  font-size: 25px;
+  font-weight: bold;
+  background: #000;
+  color: white;
+}
+#Records table td{
+  font-size: 20px;
+  background: rgb(245 245 245);
+}
+
+footer{
+    height: 5vh;
+    background: #000;
+    color: white;
+}
+footer p{
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.label{
+  font-size: 20px;
+  width: 90%;
+  color: white;
+  /* background: red; */
+}
+.headingTop{
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  text-decoration: underline;
+}
+
+.home-btn{
+  border: 2px solid white;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  margin: 20px;
+  padding: 8px;
+  border-radius: 6px;
+  background: white;
+  font-weight: bold;
+}
+.home-btn:hover{
+  background: rgb(0, 0, 0);
+  color: white;
+}
+.top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 68%;
+}
